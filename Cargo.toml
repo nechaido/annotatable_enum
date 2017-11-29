@@ -1,0 +1,14 @@
+[package]
+name = "annotatable_enum"
+version = "0.1.0"
+authors = ["Dmytro Nechai <nechaido@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/nechaido/annotatable_enum"
+description = "Rust library with macroses that generate enums, annotated with values"
+readme = "./README.md"
+keywoards = ["enum"]
+exclude = [
+  "./rustfmt.toml",
+]
+
+[dependencies]
